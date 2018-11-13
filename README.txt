@@ -21,7 +21,6 @@ Welcome.java               -This file is also apart of the GUI implementation
 WriteClient.java           -Thread which allows clients to write to each other
 WrongInfo.java             -Displays GUI if incorrect information is entered
 
-
 ::: How to run this project :::
 To test, run (in this order):
 1.java Encryption <group name> <group router address> <group router port> <new password>
