@@ -1,4 +1,5 @@
-CChat is a simple chat server network which allows students at small universities to discuss current events and opportunities with other students in their major.
+CChat is a simple chat server network which allows students at small universities to discuss current 
+events and opportunities with other students in their major.
 
 ::: Files and Directories :::
 README.md                  -This document 
