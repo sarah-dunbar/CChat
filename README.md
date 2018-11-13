@@ -43,13 +43,13 @@ CChat simple chat server network which allows students at small universities to 
 
 
 ## To test, run (in this order):
-1. java Encryption <group name> <group router address> <group router port> <new password>
-  1. Note: Can be run any number of times to update Group Router information
-1. java CentralServer <central server address> <central server port>
-1. java GroupRouter <group router address> <group router port>
-  1. Note: any number of Group Routers can be started as long as the address and port matches that in GroupRouters.txt and a Group Router for that chat is not already running
-1. java ChatServer <chat server address> <chat server port> <group router address <group router port>
-  1. Note: up to 5 Chat Servers can be connected to a specific Group Router
-1. java Client
+* java Encryption <group name> <group router address> <group router port> <new password>
+  * Note: Can be run any number of times to update Group Router information
+* java CentralServer <central server address> <central server port>
+* java GroupRouter <group router address> <group router port>
+  * Note: any number of Group Routers can be started as long as the address and port matches that in GroupRouters.txt and a   Group Router for that chat is not already running
+* java ChatServer <chat server address> <chat server port> <group router address <group router port>
+  * Note: up to 5 Chat Servers can be connected to a specific Group Router
+* java Client
 
 In order to run the network correctly, it is necessary to hard code the CentralServer IP address in the Client file, when run the CentralServer should not change
