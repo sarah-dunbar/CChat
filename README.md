@@ -44,18 +44,18 @@ CChat simple chat server network which allows students at small universities to 
 
 ## To test, run (in this order):
 ```
-java Encryption 'group name' 'group router address' 'group router port' 'new password'
+java Encryption <group name> <group router address> <group router port> <new password>
 ```
 * Note: Can be run any number of times to update Group Router information
 ```
-java CentralServer 'central server address' 'central server port'
+java CentralServer <central server address> <central server port>
 ```
 ```
-java GroupRouter 'group router address' 'group router port'
+java GroupRouter <group router address> <group router port>
 ```
 * Note: any number of Group Routers can be started as long as the address and port matches that in GroupRouters.txt and a   Group Router for that chat is not already running
 ```
-java ChatServer 'chat server address' 'chat server port' 'group router address' 'group router port'
+java ChatServer <chat server address> <chat server port> <group router address> <group router port>
 ```
 * Note: up to 5 Chat Servers can be connected to a specific Group Router
 ```
