@@ -39,4 +39,4 @@ To test, run (in this order):
 5.java Client
 
 *In order to run the network correctly, it is necessary to hard code the CentralServer IP address in the Client file, when 
-run the CentralServer should not change
+run the CentralServer should not change*
